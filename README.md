@@ -26,7 +26,7 @@ _api/items provides with a database of mushrooms, flowers and trees. Users can f
 * _api/items?type='The type of the botanical item the user wants to look for'_
 * _api/items?difficulty='The difficulty of the botanical item the user wants to look for'_
 
-###### * _This API will host the database for the [Botanical Adventure MVC website](https://github.com/curiousmockingbird/team-week-mvc.git)._
+###### * _This API hosts the database for the [Botanical Adventure MVC website](https://github.com/curiousmockingbird/team-week-mvc.git)._
 
 ## Setup
 
