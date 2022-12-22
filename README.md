@@ -13,7 +13,7 @@
 
 ## Description
 
-_The Botanical Adventure API provides with a database of mushrooms, flowers and trees in the coast, desert and forest of Oregon for a game._
+_The Botanical Adventure API provides with a database of mushrooms, flowers and trees in the coast, desert and forest of Oregon._
 
 _All requests are made to endpoints beginning: http://localhost:5004/api/_
 
@@ -31,8 +31,6 @@ _api/items provides with a database of mushrooms, flowers and trees. Users can f
 ## Setup
 
 * _If you haven't yet, install the dotnet ef tool through your command line (run $ dotnet tool install --global dotnet-ef --version 5.0.1)_
-* _Run $ dotnet ef database update_
-* _Run $ dotnet watch run to run the API. It will open the http://localhost:5004/api/items endpoint. 
 * _On the root directory, create an appsettings.json fie and add the following code:_  
 {
   "Logging": {
@@ -48,6 +46,8 @@ _api/items provides with a database of mushrooms, flowers and trees. Users can f
   }
 }
 
+* _Run '$ dotnet ef database update'_
+* _Run '$ dotnet watch run' to run the API server. It will open the http://localhost:5004/api/items endpoint. 
 ## Bugs
 
 * _No known bugs_
@@ -64,4 +64,4 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 
-Copyright (c) _24 Nov, 2022_ _Helen Lehrer, Keisha Marie, Kelly Bruce, Tiberius Lockett, Harold Mesa_
+Copyright (c) _24 Nov, 2022_ _Harold Mesa, Helen Lehrer, Keisha Marie, Kelly Bruce, and Tiberius Lockett_
